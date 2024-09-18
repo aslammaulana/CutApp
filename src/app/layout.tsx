@@ -1,9 +1,9 @@
 import './globals.css';
-import { Montserrat } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import Navbar from '@/components/themebuilder/02-Navbar';
 
 
-const montserrat = Montserrat({
+const poppins = Poppins ({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={montserrat.className}> {/* Menambahkan font Montserrat */}
+    <html lang="en" className={poppins.className}> {/* Menambahkan font Montserrat */}
       <head>
         <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,500,0,0" />
