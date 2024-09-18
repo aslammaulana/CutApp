@@ -14,7 +14,7 @@ export default function MenuDekstop() {
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <div className="flex items-center cursor-pointer text-[#3a3f3e]">
-                        <p>Beranda</p>
+                        <p>Home</p>
                         <HiChevronDown className="ml-2" />
                     </div>
                 </DropdownMenuTrigger>
