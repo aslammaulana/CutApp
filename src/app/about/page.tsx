@@ -38,7 +38,7 @@ export default function AboutPage() {
                                 <p className="text-[#1c8e72] text-[23px] lg:text-[38px] font-bold">Lung Disease Screening & Telemedicine</p>
                                 <p className="text-[#828383] text-[15px] font-300 mb-5 mt-2 leading-[1.6rem]">
                                     System to help patients and medical personnel in early screening for lung
-                                    disease with AI technology in the form of self-screening and telemedicine quickly, easy
+                                    disease with AI Technology in the form of self-screening and telemedicine quickly, easy
                                     and cheap.
                                 </p>
                                 <div className='flex items-center space-x-4'>
