@@ -2,10 +2,10 @@ import './globals.css';
 import { Montserrat } from 'next/font/google';
 import Navbar from '@/components/themebuilder/02-Navbar';
 
-// Menggunakan Montserrat dengan bobot dari 100 hingga 900
+
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], // Semua bobot
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
 export const metadata = {

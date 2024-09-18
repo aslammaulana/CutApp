@@ -69,12 +69,12 @@ export default function AchievementPage(): JSX.Element {
                                 <Image
                                     src="/images/paten.png"
                                     alt="Deskripsi Gambar"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
-                            <p className='px-3 mt-3   '>Patented Product</p>
-                            <p className='ml-3  mt-2 mb-3 text-[#1C738E] text-[14px] '>More...</p>
+                            <p className='px-3 mt-3'>Patented Product</p>
+                            <p className='ml-3 mt-2 mb-3 text-[#1C738E] text-[14px]'>More...</p>
                         </div>
                         {/* <!-- Item 2 --> */}
                         <div className="w-full md:w-[20%]  flex-col justify-start items-center  border border-gray-200 ">
@@ -82,12 +82,12 @@ export default function AchievementPage(): JSX.Element {
                                 <Image
                                     src="/images/AIinnovation.png"
                                     alt="Deskripsi Gambar"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
-                            <p className='px-3 mt-3   '>Indonesia AI Winner 2023</p>
-                            <p className='ml-3  mt-2 mb-3 text-[#1C738E] text-[14px] '>More...</p>
+                            <p className='px-3 mt-3'>Indonesia AI Winner 2023</p>
+                            <p className='ml-3 mt-2 mb-3 text-[#1C738E] text-[14px]'>More...</p>
                         </div>
                         {/* <!-- Item 3 --> */}
                         <div className="w-full md:w-[20%]  flex-col justify-start items-center  border border-gray-200 ">
@@ -95,12 +95,12 @@ export default function AchievementPage(): JSX.Element {
                                 <Image
                                     src="/images/etik.png"
                                     alt="Deskripsi Gambar"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
-                            <p className='px-3 mt-3   '>WHO Ethical Clearance</p>
-                            <p className='ml-3  mt-2 mb-3 text-[#1C738E] text-[14px] '>More...</p>
+                            <p className='px-3 mt-3'>WHO Ethical Clearance</p>
+                            <p className='ml-3 mt-2 mb-3 text-[#1C738E] text-[14px]'>More...</p>
                         </div>
                         {/* <!-- Item 4 --> */}
                         <div className="w-full md:w-[20%]  flex-col justify-start items-center  border border-gray-200 ">
@@ -108,12 +108,12 @@ export default function AchievementPage(): JSX.Element {
                                 <Image
                                     src="/images/AIC.png"
                                     alt="Deskripsi Gambar"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
-                            <p className='px-3 mt-3   '>The 13th AIC Convergence & EXPO</p>
-                            <p className='ml-3  mt-2 mb-3 text-[#1C738E] text-[14px] '>More...</p>
+                            <p className='px-3 mt-3'>The 13th AIC Convergence & EXPO</p>
+                            <p className='ml-3 mt-2 mb-3 text-[#1C738E] text-[14px]'>More...</p>
                         </div>
                         {/* <!-- Item 5 --> */}
                         <div className="w-full md:w-[20%]  flex-col justify-start items-center  border border-gray-200 ">
@@ -121,14 +121,15 @@ export default function AchievementPage(): JSX.Element {
                                 <Image
                                     src="/images/ICICT.png"
                                     alt="Deskripsi Gambar"
-                                    layout="fill"
-                                    objectFit="cover"
+                                    fill
+                                    style={{ objectFit: "cover" }}
                                 />
                             </div>
-                            <p className='px-3 mt-3   '>ICICT Springer International Research</p>
-                            <p className='ml-3  mt-2 mb-3 text-[#1C738E] text-[14px] '>More...</p>
+                            <p className='px-3 mt-3'>ICICT Springer International Research</p>
+                            <p className='ml-3 mt-2 mb-3 text-[#1C738E] text-[14px]'>More...</p>
                         </div>
                     </div>
+
                     {/* <!-- NavSidebar --> */}
                     <div className="hidden md:flex w-full md:w-1/5 flex-col justify-start items-start space-y-4 mt-8 md:mt-0 ml-0 md:ml-10">
                         <div></div>
